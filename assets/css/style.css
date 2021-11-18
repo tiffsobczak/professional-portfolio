@@ -2,17 +2,17 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: var(--secondary-color);
 }
 
 :root { --primary-color: #36486b;
-        --secondary-color: #656b6d;
+        --secondary-color: #c0cace;
         --teritary-color: #80ced6;
 
-
-}ß
+}
 
 body {
-    background-color: var(--secondary-color);
+    background-color: --secondary-color;
     color: var(--primary-color)
 }
 
