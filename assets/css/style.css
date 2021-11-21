@@ -7,7 +7,7 @@
 
 :root { --primary-color: #36486b;
         --secondary-color: #c0cace;
-        --teritary-color: #80ced6;
+        --teritary-color: rgb(41, 38, 38);
 
 }
 
@@ -49,7 +49,7 @@ p {
      display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgb(41, 38, 38);
+    background-color: var(--teritary-color);
     position: relative;
  }
 
@@ -75,16 +75,23 @@ header::before {
     display: flex;
     align-items: center;
     gap: 20px;
-
-
 }
 
 /* Hero Image */
 .hero {
-    height: 100px;
+    height: 150px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/squareheader.jpg");
+    display: flex;
+    justify-content: right;
+
+}
+.hero h2 {
+    align-self: flex-end;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 20px;
 
 }
 .section {
@@ -97,7 +104,7 @@ header::before {
 
 .section-title {
     flex: 1;
-    border-right: 1px solid black;
+    border-right: 3px solid var(--teritary-color);
     text-align: right;
     padding: 20px;
 }
