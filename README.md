@@ -13,4 +13,4 @@ To showcase my work and skills as a potential employee
 https://tiffsobczak.github.io/professional-portfolio/
 
 ## Screenshot
-![Portfolio Screenshot](./portfolioscreenshot.png)
+![Portfolio Screenshot](./portfolioSS.png)
